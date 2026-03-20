@@ -1,0 +1,16 @@
+export const C={bg:"#080a0e",panel:"#0d1117",border:"#1a2030",muted:"#374151",text:"#e2e8f0",sub:"#64748b",accent:"#3b82f6",green:"#22c55e",yellow:"#eab308",orange:"#f97316",red:"#ef4444",purple:"#a78bfa",teal:"#14b8a6"};
+
+export const INTS=[{id:"gmail",name:"Gmail",type:"Email",icon:"\u2709\uFE0F"},{id:"gdrive",name:"Google Drive",type:"Storage",icon:"\uD83D\uDCC1"},{id:"postgres",name:"PostgreSQL",type:"Database",icon:"\uD83D\uDDC4\uFE0F"},{id:"mysql",name:"MySQL",type:"Database",icon:"\uD83D\uDDC4\uFE0F"},{id:"rest",name:"REST API",type:"API",icon:"\uD83D\uDD0C"},{id:"webhook",name:"Webhooks",type:"Trigger",icon:"\u26A1"},{id:"slack",name:"Slack",type:"Messaging",icon:"\uD83D\uDCAC"},{id:"custom",name:"Custom API",type:"Custom",icon:"\uD83D\uDEE0\uFE0F"}];
+
+export const MODELS=[{id:"anthropic",name:"Anthropic",icon:"\uD83D\uDFE3",hosting:"cloud",models:[{id:"claude-sonnet-4-20250514",label:"Claude Sonnet 4",tier:"balanced"},{id:"claude-opus-4-20250514",label:"Claude Opus 4",tier:"powerful"},{id:"claude-haiku-4-5",label:"Claude Haiku 4.5",tier:"fast"}]},{id:"openai",name:"OpenAI",icon:"\uD83D\uDFE2",hosting:"cloud",models:[{id:"gpt-4o",label:"GPT-4o",tier:"balanced"},{id:"gpt-4o-mini",label:"GPT-4o Mini",tier:"fast"}]},{id:"offline",name:"OfflineLLM",icon:"\uD83D\uDDA5\uFE0F",hosting:"self-hosted",models:[{id:"qwen2-32b",label:"Qwen2 32B",tier:"powerful"},{id:"mistral-7b",label:"Mistral 7B",tier:"fast"}]}];
+
+export const DM={providerId:"anthropic",modelId:"claude-sonnet-4-20250514",version:"pinned",temperature:0.3,maxTokens:2048,systemPromptBase:"You are an autonomous business process agent.",monthlyCapUSD:100};
+
+export const ROLES=[{id:"analyst",label:"Data Analyst",icon:"\uD83D\uDCCA"},{id:"email",label:"Email Handler",icon:"\u2709\uFE0F"},{id:"crm",label:"CRM Updater",icon:"\uD83D\uDC64"},{id:"report",label:"Report Generator",icon:"\uD83D\uDCC4"},{id:"sales",label:"Sales Agent",icon:"\uD83D\uDCBC"},{id:"monitor",label:"Monitor Agent",icon:"\uD83D\uDD0D"},{id:"integration",label:"Integration Agent",icon:"\uD83D\uDD17"},{id:"orchestrator",label:"Orchestrator",icon:"\uD83C\uDFAF"}];
+
+export const ACTS=[{id:"batch",label:"Scheduled Batch Job",icon:"\u23F0"},{id:"event",label:"Event-Triggered",icon:"\u26A1"},{id:"continuous",label:"Continuous Monitor",icon:"\uD83D\uDD04"},{id:"hitl",label:"Human-in-the-Loop",icon:"\uD83E\uDD1D"},{id:"pipeline",label:"Orchestrator Pipeline",icon:"\uD83D\uDDC2\uFE0F"}];
+
+export const PHASES=[{id:"discovery",label:"Discovery",icon:"\uD83D\uDD0D",desc:"Business context & stakeholders"},{id:"audit",label:"Process Audit",icon:"\uD83D\uDCCB",desc:"Workflow step mapping"},{id:"systems",label:"System Mapping",icon:"\uD83D\uDDFA\uFE0F",desc:"Technical environment"},{id:"design",label:"Agent Design",icon:"\uD83E\uDD16",desc:"Agent architecture"},{id:"package",label:"Day One Package",icon:"\uD83D\uDE80",desc:"Compile & deploy"}];
+
+export const CTABS=["overview","onboarding","workflows","agents","integrations","environments","notes"];
+export const TICONS={overview:"\uD83D\uDCCA",onboarding:"\uD83D\uDD0D",workflows:"\u2699",agents:"\uD83E\uDD16",integrations:"\uD83D\uDD0C",environments:"\uD83D\uDEE1\uFE0F",notes:"\uD83D\uDCDD"};
